@@ -42,27 +42,34 @@
     //     echo $array['first_name'];
 
     // ------- Multi Dimensional Array --------
-    $array = [
-        'first_name' => 'Shohan',
-        'last_name' => 'Kazi',
-        'age' => 21,
-        'date_of_birth' => '06-03-2002',
-        'Permanent Address' => [
-            'care_of'=> 'Kazi bari',
-            'Village' => 'Mobarakdi',
-            'Post_office' => 'Boroddia',
-            'Post_code' => 4001,
-            'Police_Station' => 'Motolob',
-            'District' => 'Chandpur',
+//     $array = [
+//         'first_name' => 'Shohan',
+//         'last_name' => 'Kazi',
+//         'age' => 21,
+//         'date_of_birth' => '06-03-2002',
+//         'Permanent Address' => [
+//             'care_of'=> 'Kazi bari',
+//             'Village' => 'Mobarakdi',
+//             'Post_office' => 'Boroddia',
+//             'Post_code' => 4001,
+//             'Police_Station' => 'Motolob',
+//             'District' => 'Chandpur',
             
-        ],
-        'Present Address' => [
-            'care_of' => 'Soudia Building',
-            'Street_name' => 'Tella Pukur Par',
-            'Ward_No' => 38,
-            'District' => 'Chattogram'
-        ]
-        ];
-print_r($array);
+//         ],
+//         'Present Address' => [
+//             'care_of' => 'Soudia Building',
+//             'Street_name' => 'Tella Pukur Par',
+//             'Ward_No' => 38,
+//             'District' => 'Chattogram'
+//         ]
+//         ];
+// print_r($array);
     // echo $array['Present_address'['care_of']];
+
+    // ----------- While loop ----------
+    $i = 1;
+    while ($i <= 10) {
+        echo $i . ' x 5 = ' . $i*5 . '</br>';
+        $i++;
+    }
 ?>
