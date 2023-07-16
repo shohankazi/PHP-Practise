@@ -67,9 +67,16 @@
     // echo $array['Present_address'['care_of']];
 
     // ----------- While loop ----------
-    $i = 1;
-    while ($i <= 10) {
-        echo $i . ' x 5 = ' . $i*5 . '</br>';
-        $i++;
-    }
+    // $i = 1;
+    // while ($i <= 10) {
+    //     echo $i . ' x 5 = ' . $i*5 . '</br>';
+    //     $i++;
+    // }
+
+    // ---------- Do while loop ---------
+    // $i = 1;
+    // do {
+    //     echo $i . ' x 2 = ' . $i*2 . '</br>';
+    //     $i++;
+    // } while ($i <= 10);
 ?>
