@@ -27,6 +27,17 @@
     // }
     
     // ------ ARRAY DATA TYPE ------
-    $array = ['Shohan','Kazi',34,35,36];
-    echo $array[3];
+    
+    // $array = ['Shohan','Kazi',34,35,36];
+    // echo $array[3];
+
+    // ------ Associative Array -------
+    $array = [
+        'first_name'=>'Shohan',
+        'last_name'=>'Kazi',
+        'age'=>21,
+        'mobile_number'=>'01829-705957',
+        'email'=>'Shohankazi012@gmail.com'];
+
+        echo $array['first_name'];
 ?>
