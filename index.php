@@ -93,10 +93,15 @@
     //     }
 
     // -------- Function ------
-    function sum($num1,$num2) {
-        return $num1 + $num2;
-    }
-    echo sum(30,40);
-
+    // function sum($num1,$num2) {
+    //     return $num1 + $num2;
+    // }
+    // echo sum(30,40);
+    // -------- Built in function ---------
+    $array = [1,3,5,7,9];
+    $filtered_array = array_unique($array);
+    var_dump($filtered_array);
+    echo '</br>';
+    echo count($array);
 ?>
 
